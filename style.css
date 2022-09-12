@@ -1,0 +1,74 @@
+h1 {
+    color: black;
+}
+
+/* * {
+    border:
+} */
+
+.header {
+    background-color: rgb(166, 166, 166);
+    display: flex;
+    justify-content: space-between;
+    font-size: 120%;
+    border-radius: 25px;
+    margin-left: 20;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+    margin: 5px;
+    width: 210px;
+    margin-right: 20px;
+}
+
+.gread {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 120%;
+}
+
+.futher {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+h1 {
+    padding-left: 30px;
+}
+
+p,
+h2 {
+    text-align: center;
+
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    align-self: flex-end;
+}
+
+.item {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color:rgb(117, 136, 76);
+}
